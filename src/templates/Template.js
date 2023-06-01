@@ -1,4 +1,4 @@
-import getData from '../utils/getData.js';
+import getData from "../utils/getData.js";
 
 const Template = async () => {
   const data = await getData();
@@ -23,13 +23,13 @@ const Template = async () => {
           </ul>
         </div>
         <div class="card_social">
-          <a href="https://twitter.com/gndx">
+          <a href="https://twitter.com/diegooiberri">
             <img src="../src/assets/images/twitter.png" />
           </a>
-          <a href="https://github.com/gndx">
+          <a href="https://github.com/creativoo">
             <img src="../src/assets/images/github.png" />
           </a>
-          <a href="https://instagram.com/gndx">
+          <a href="https://instagram.com/diegooiberri">
             <img src="../src/assets/images/instagram.png" />
           </a>
         </div>
