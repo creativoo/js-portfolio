@@ -5,7 +5,7 @@ const CopyPlugin = require("copy-webpack-plugin"); // Plugin para copiar archivo
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin"); // Plugin para minimizar CSS
 const TerserPlugin = require("terser-webpack-plugin"); // Plugin para minimizar JS
 const Dotenv = require("dotenv-webpack"); // Plugin para establecer variables de entorno
-// const { CleanWebpackPlugin } = require('clean-webpack-plugin'); // Plugin para limpiar la carpeta dist
+const { CleanWebpackPlugin } = require("clean-webpack-plugin"); // Plugin para limpiar la carpeta dist
 
 module.exports = {
   // Exportamos un objeto con la configuración de Webpack
