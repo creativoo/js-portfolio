@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node ./scripts/create.env.js && webpack --mode production --config webpack.config.js",
+    "build": "webpack --mode production --config webpack.config.js",
     "dev": "webpack --config webpack.config.dev.js",
     "build:watch": "webpack --watch --config webpack.config.js"
   },
@@ -21,9 +21,9 @@
   "author": "diego iberri <diegoiberrir@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativoo/js-portfolio/issues"
+    "url": "https://github.com/gndx/js-portfolio/issues"
   },
-  "homepage": "https://github.com/creativoo/js-portfolio#readme",
+  "homepage": "https://github.com/gndx/js-portfolio#readme",
   "devDependencies": {
     "@babel/core": "^7.22.1",
     "@babel/plugin-transform-runtime": "^7.22.4",
